@@ -1,9 +1,13 @@
 .card {
+  width: 400px;
   border: 3px solid #000000;
   border-radius: 10px;
   overflow: hidden;
   background-color: #ffffff;
   margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card .conteudo {

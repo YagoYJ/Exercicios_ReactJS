@@ -13,7 +13,7 @@ import Mega from "./mega";
 
 export default function App() {
   return (
-    <>
+    <div className="cards">
       <Card titulo="Primeiro Componente" color="#fa6900">
         <Primeiro />
       </Card>
@@ -47,6 +47,6 @@ export default function App() {
       <Card titulo="Mega" color="#e94c6f">
         <Mega quantidadeNumeros={8}></Mega>
       </Card>
-    </>
+    </div>
   );
 }
